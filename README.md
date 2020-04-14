@@ -1,5 +1,5 @@
 ## Dicee 🎲
 
 <p align="center">
-  ![Finished App](https://github.com/londonappbrewery/Images/blob/master/dicee-demo.gif)
+  <img src="screenshots/dicee-demo.png" width="350" alt="Demo" />
 </p>
