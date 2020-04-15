@@ -31,6 +31,9 @@ class _DicePageState extends State<DicePage> {
           Expanded(
             child: FlatButton(
               onPressed: () {
+                setState(() {
+                  leftDiceNumber = 5;
+                });
                 print('left button got pressed.');
               },
               child: Image.asset('images/dice$leftDiceNumber.png'),
