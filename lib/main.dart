@@ -15,8 +15,14 @@ void main() {
   );
 }
 
-class DicePage extends StatelessWidget {
-  var leftDiceNumber = 1;
+class DicePage extends StatefulWidget {
+  @override
+  _DicePageState createState() => _DicePageState();
+}
+
+class _DicePageState extends State<DicePage> {
+  int leftDiceNumber = 1;
+
   @override
   Widget build(BuildContext context) {
     return Center(
